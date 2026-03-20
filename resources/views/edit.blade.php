@@ -37,7 +37,7 @@
 
                         <div class="d-flex justify-content-between">
                             <a href="/" class="btn btn-secondary">Cancelar</a>
-                            <button type="submit" class="btn success">Guardar Cambios</button>
+                            <button type="submit" class="btn btn-success">Guardar Cambios</button>
                         </div>
                     </form>
                 </div>

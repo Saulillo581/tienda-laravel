@@ -10,7 +10,7 @@
 
 <div class="container mt-5">
     <div class="card shadow"> <div class="card-header bg-primary text-white">
-            <h3 class="mb-0">Inventario de la Tiendita</h3>
+            <h3 class="mb-0">Tiendita</h3>
         </div>
 
         <div class="card-body">
