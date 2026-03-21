@@ -36,6 +36,14 @@ class ProductoController extends Controller
         return redirect('/')->with('mensaje', 'Producto eliminado correctamente');
     }
 
+    public function edit($id) {
+    // Buscamos el producto que quieres editar
+    $producto = \App\Models\Producto::find($id);
+    
+    // Lo mandamos a una vista que se llame 'editar'
+    return view('edit', compact('producto'));
+}
+
     public function update(Request $request, $id) {
     // 1. Validamos los datos nuevos
     $request->validate([
